@@ -1,0 +1,11 @@
+// Simple welcome alert
+window.onload = function () {
+    alert("Welcome to Sujitha's Portfolio!");
+};
+
+
+// Highlight skills when clicked
+function highlightSkill(element) {
+    element.style.color = "#4CAF50";
+    element.style.fontWeight = "bold";
+}
